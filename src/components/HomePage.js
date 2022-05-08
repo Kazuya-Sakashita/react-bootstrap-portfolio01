@@ -33,7 +33,7 @@ function HomePage() {
             <div className="col-md-4 border border-secondary">
               
               <a href="https://kazu-123.herokuapp.com/">
-                  <img src={portfolio01Image} className="portfolio01Image" />
+                  <img src={portfolio01Image} className="portfolioImage" />
               </a>
               <h4 className="my-3">理容室予約サイト(架空)</h4>
               <p className="text-muted">
@@ -42,7 +42,7 @@ function HomePage() {
             </div>
             <div className="col-md-4 border border-secondary">
               <a href="https://calm-crag-17496.herokuapp.com/">
-                  <img src={portfolio02Image} className="portfolio02Image" />
+                  <img src={portfolio02Image} className="portfolioImage" />
               </a>
               <h4 className="my-3">エンジニア稼働管理WB(架空)</h4>
               <p className="text-muted">
@@ -52,7 +52,7 @@ function HomePage() {
             </div>
             <div className="col-md-4 border border-secondary">
               <a href="https://aqueous-refuge-45243.herokuapp.com/">
-                  <img src={portfolio03Image} className="portfolio03Image" />
+                  <img src={portfolio03Image} className="portfolioImage" />
               </a>
               <h4 className="my-3">読み上げ掲示板</h4>
               <p className="text-muted">

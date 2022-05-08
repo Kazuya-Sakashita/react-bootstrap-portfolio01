@@ -1,7 +1,5 @@
 import React from 'react'
-import reactImage from "../Images/react.png";
-import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
+import { Link } from 'react-router-dom';
 import profileImage from "../Images/kazu.png";
 import portfolio01Image from "../Images/portfolio01.png";
 import portfolio02Image from "../Images/portfolio02.png";
@@ -42,6 +40,7 @@ function HomePage() {
               <h4 className="my-3">理容室予約サイト(架空)</h4>
               <p className="text-muted">
                 学習しはじめて4ヶ月目くらいから実装したものでコードはダメダメ。CRUDの基本を学び実装でき、達成感はありました。優しい目でみてくださいね。
+                  <br></br><Link to="/blog">作品説明</Link>
               </p>
             </div>
             <div className="col-md-4 border border-secondary">
@@ -52,6 +51,7 @@ function HomePage() {
               <p className="text-muted">
                 ログイン・サインアップ、権限管理、検索、ステータス管理、SNSログイン、非同期処理など多くの機能について実装することで良い経験となりました。
                 業務支援の管理WEBのためフロントは、Tailwind CSSを使用しシンプルにしました。
+                <br></br><Link to="/blog">作品説明</Link>
               </p>
             </div>
             <div className="col-md-4 border border-secondary">
@@ -61,6 +61,7 @@ function HomePage() {
               <h4 className="my-3">読み上げ掲示板</h4>
               <p className="text-muted">
                 発語障害を抱えている方が健常者とのコミュニケーションをとるためにスマホで使えるものをと思い作成しました。Chrome専用で、テキストを保存、読み上げ、他の人と共有、bookmark機能などを盛り込んでいます。
+                <br></br><Link to="/blog">作品説明</Link>
               </p>
             </div>
           </div>

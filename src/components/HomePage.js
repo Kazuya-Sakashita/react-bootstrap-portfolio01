@@ -83,12 +83,12 @@ function HomePage() {
             </div>
             <div className="col-md-4 services">
               <img src={bootstrapImage} />
-              <h4>Firebase</h4>
+              <h4>Bootstrap</h4>
               <p>Bootstrapがつかえます</p>
             </div>
             <div className="col-md-4 services">
               <img src={tailwindImage} />
-              <h4>Firebase</h4>
+              <h4>Tailwind css</h4>
               <p>Tailwind cssがつかえます</p>
             </div>
             <div className="col-md-4 services">

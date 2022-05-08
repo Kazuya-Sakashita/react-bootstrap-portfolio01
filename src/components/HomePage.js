@@ -6,7 +6,11 @@ import profileImage from "../Images/kazu.png";
 import portfolio01Image from "../Images/portfolio01.png";
 import portfolio02Image from "../Images/portfolio02.png";
 import portfolio03Image from "../Images/portfolio03.png";
-
+import rubyImage from "../Images/ruby_icon.png";
+import htmlImage from "../Images/htmlcss.png";
+import bootstrapImage from "../Images/bootstrap_icon.png";
+import tailwindImage from "../Images/css_tailwind_icon.png";
+import dockerImage from "../Images/docker_icon.png";
 
 function HomePage() {
   return (
@@ -26,7 +30,7 @@ function HomePage() {
           <div className="text-center">
             <h2 className="section-heading text-uppercase">PORTFOLIO</h2>
             <h3 className="section-subheading text-muted mb-5">
-              私が作った作品の一部です。
+              <p>私が作った作品の一部です。リンク先は,<span>立ち上がりに少し時間</span>がかかります</p>
             </h3>
           </div>
           <div className="row text-center">
@@ -68,19 +72,29 @@ function HomePage() {
           <h1 className="title">スキル</h1>
           <div className="row text-center">
             <div className="col-md-4 services">
-              <img src={reactImage} />
-              <h4>React</h4>
-              <p>Reactがつかえます</p>
+              <img src={rubyImage} />
+              <h4>Ruby on Rails</h4>
+              <p>Ruby on Railsがつかえます</p>
             </div>
             <div className="col-md-4 services">
-              <img src={jsImage} />
+              <img src={htmlImage} />
               <h4>HTML/CSS</h4>
               <p>HTML/CSSがつかえます</p>
             </div>
             <div className="col-md-4 services">
-              <img src={firebaseImage} />
+              <img src={bootstrapImage} />
               <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
+              <p>Bootstrapがつかえます</p>
+            </div>
+            <div className="col-md-4 services">
+              <img src={tailwindImage} />
+              <h4>Firebase</h4>
+              <p>Tailwind cssがつかえます</p>
+            </div>
+            <div className="col-md-4 services">
+              <img src={dockerImage} />
+              <h4>Docker</h4>
+              <p>Dockerがつかえます</p>
             </div>
           </div>
           <button type="button" className="btn btn-primary">
@@ -88,6 +102,7 @@ function HomePage() {
           </button>
         </div>
       </section>
+      
     </div>
   )
 }

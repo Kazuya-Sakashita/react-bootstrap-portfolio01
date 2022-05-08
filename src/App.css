@@ -25,9 +25,27 @@ header {
 }
 
 header .logo h3 {
-  margin: 0;
-  padding: 0;
-  color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header .logo h3 a {
+    color: white;
+    font-size: xxx-large;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+header .logo h3 a:hover {
+    color: #48b4af;
+}
+
+/*ホームのPORTFOLIOのアンダーライン部分*/
+section p span {
+  font-weight: bold;
+  border-bottom:solid;
+  border-color:#605d5d;
+  border-width:5px;/*5ピクセルの太さにする*/
 }
 
 nav ul {
@@ -94,3 +112,22 @@ img {
 .portfolioImage {
   margin: 10px;
 }
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+
+
+/*作品説明ページのCSS*/
+
+/*作品説明ページのアンダーライン部分*/
+.container p span {
+  font-weight: bold;
+  border-bottom:solid;
+  border-color:#605d5d;
+  border-width:5px;/*5ピクセルの太さにする*/
+  font-feature-settings: "palt" 1;
+}
+.resizeimage img { width: 100vw; }

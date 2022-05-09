@@ -21,6 +21,9 @@ function HomePage() {
         KAZUYAと申します。この度は、私のportfolioに訪問いただきましてありがとうございます。
         私が作成したものや、どのようなスキルがあるのかをお伝えしたいと思います。経験が浅くまだまだですが、よろしくお願いします。
       
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScmmaayq4Wg1x37w96VV5aeoN6RiYp2_-gNaJJNVN6tQoyzOg/viewform?usp=pp_url">
+          <p>お問い合わせ</p>
+        </a>
       </p>
 
       <section className="page-section" id="services">
